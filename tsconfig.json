@@ -1,0 +1,100 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "esnext",
+    "target": "es6",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "rootDir": "./",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "preserve",
+    "strict": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitHelpers": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "$actions/*": [
+        "src/actions/*"
+      ],
+      "$components/*": [
+        "src/components/*"
+      ],
+      "$config/*": [
+        "src/config/*"
+      ],
+      "$elements/*": [
+        "src/elements/*"
+      ],
+      "$features/*": [
+        "src/features/*"
+      ],
+      "$layouts/*": [
+        "src/layouts/*"
+      ],
+      "$models/*": [
+        "src/models/*"
+      ],
+      "$pages/*": [
+        "src/pages/*"
+      ],
+      "$plugins/*": [
+        "src/plugins/*"
+      ],
+      "$routes/*": [
+        "src/routes/*"
+      ],
+      "$scss/*": [
+        "src/assets/scss/*"
+      ],
+      "$services/*": [
+        "src/services/*"
+      ],
+      "$store/*": [
+        "src/store/*"
+      ],
+      "$types/*": [
+        "src/types/*"
+      ],
+      "$utils/*": [
+        "src/utils/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin"
+      },
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "webpack"
+  ]
+}
